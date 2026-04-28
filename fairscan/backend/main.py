@@ -101,15 +101,20 @@ async def analyze_upload(
 @app.post("/report")
 async def download_report(payload: dict):
     try:
-        # ✅ FIX: use full payload directly
-        metrics = payload
+        print("PAYLOAD RECEIVED:", payload)   # 👈 DEBUG
 
-        # ✅ FIX: normalize explanation safely
+        metrics = payload
         explanation = payload.get("explanation", {})
 
-        # if explanation is string → convert to dict
+        # 👇 FIX: normalize explanation safely
         if isinstance(explanation, str):
-            explanation = {"explanation": explanation, "recommendations": []}
+            explanation = {
+                "explanation": explanation,
+                "recommendations": []
+            }
+
+        print("METRICS:", metrics)
+        print("EXPLANATION:", explanation)
 
         pdf_bytes = generate_pdf(metrics, explanation)
 
@@ -122,9 +127,8 @@ async def download_report(payload: dict):
         )
 
     except Exception as e:
-        print("PDF ERROR:", e)  # 👈 ADD THIS FOR DEBUG
-        raise HTTPException(status_code=500, detail=f"Report generation failed: {str(e)}")
-
+        print("PDF ERROR:", str(e))   # 👈 THIS WILL SHOW REAL ERROR
+        raise HTTPException(status_code=500, detail=str(e))
 @app.post("/ask")
 async def ask_ai(payload: dict):
     try:
