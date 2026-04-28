@@ -100,19 +100,29 @@ async def analyze_upload(
 
 @app.post("/report")
 async def download_report(payload: dict):
-    """
-    Generate and return a PDF audit report from the analysis results.
-    """
     try:
-        metrics = {k: v for k, v in payload.items() if k != "explanation"}
+        # ✅ FIX: use full payload directly
+        metrics = payload
+
+        # ✅ FIX: normalize explanation safely
         explanation = payload.get("explanation", {})
+
+        # if explanation is string → convert to dict
+        if isinstance(explanation, str):
+            explanation = {"explanation": explanation, "recommendations": []}
+
         pdf_bytes = generate_pdf(metrics, explanation)
+
         return StreamingResponse(
             io.BytesIO(pdf_bytes),
             media_type="application/pdf",
-            headers={"Content-Disposition": "attachment; filename=fairscan_audit_report.pdf"},
+            headers={
+                "Content-Disposition": "attachment; filename=fairscan_audit_report.pdf"
+            },
         )
+
     except Exception as e:
+        print("PDF ERROR:", e)  # 👈 ADD THIS FOR DEBUG
         raise HTTPException(status_code=500, detail=f"Report generation failed: {str(e)}")
 
 @app.post("/ask")
