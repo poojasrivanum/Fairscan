@@ -78,9 +78,7 @@ export default function Results() {
     const res = await fetch(`${API}/report`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        auditSummary: results   // ✅ FIXED
-      }),
+      body: JSON.stringify(results)
     })
 
     if (!res.ok) throw new Error('PDF generation failed')
