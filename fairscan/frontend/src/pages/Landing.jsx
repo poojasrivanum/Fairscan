@@ -23,9 +23,7 @@ export default function Landing() {
         <div className="absolute bottom-20 right-1/4 w-80 h-80 bg-purple-100 rounded-full blur-3xl opacity-40 pointer-events-none" />
 
         <div className="relative z-10 max-w-4xl fade-in">
-          <div className="inline-flex items-center gap-2 bg-indigo-50 border border-indigo-200 text-indigo-700 text-sm font-medium px-4 py-1.5 rounded-full mb-6">
-            <span>🏆</span> Google Solution Challenge 2025
-          </div>
+          
 
           <h1 className="text-5xl sm:text-7xl font-extrabold leading-tight mb-6">
             Is your AI treating<br />
