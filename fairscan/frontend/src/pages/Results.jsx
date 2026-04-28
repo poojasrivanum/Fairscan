@@ -73,25 +73,32 @@ export default function Results() {
   const protectedSet = new Set((protected_attributes || []).map(a => a.toLowerCase()))
 
   async function downloadPDF() {
-    setDownloading(true)
-    try {
-      const res = await fetch(`${API}/report`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(results),
-      })
-      if (!res.ok) throw new Error('PDF generation failed')
-      const blob = await res.blob()
-      const url = URL.createObjectURL(blob)
-      const a = document.createElement('a')
-      a.href = url; a.download = 'fairscan_audit_report.pdf'
-      a.click(); URL.revokeObjectURL(url)
-    } catch (e) {
-      alert('PDF download failed: ' + e.message)
-    } finally {
-      setDownloading(false)
-    }
+  setDownloading(true)
+  try {
+    const res = await fetch(`${API}/report`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        auditSummary: results   // ✅ FIXED
+      }),
+    })
+
+    if (!res.ok) throw new Error('PDF generation failed')
+
+    const blob = await res.blob()
+    const url = URL.createObjectURL(blob)
+    const a = document.createElement('a')
+    a.href = url
+    a.download = 'fairscan_audit_report.pdf'
+    a.click()
+    URL.revokeObjectURL(url)
+
+  } catch (e) {
+    alert('PDF download failed: ' + e.message)
+  } finally {
+    setDownloading(false)
   }
+}
 
   return (
     <div className="pt-14 min-h-screen bg-slate-50">
