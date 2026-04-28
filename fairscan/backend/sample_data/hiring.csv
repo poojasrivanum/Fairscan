@@ -1,0 +1,301 @@
+age,gender,race,education,experience_years,department,hired
+26,Male,White,High School,1,Operations,1
+39,Female,Black,Master,12,Operations,1
+49,Female,Black,Bachelor,13,Marketing,0
+43,Male,Black,Master,16,HR,1
+42,Male,Asian,Bachelor,8,Operations,1
+27,Male,Hispanic,Master,16,Sales,0
+22,Male,Black,PhD,7,Sales,0
+26,Female,White,Master,1,Engineering,1
+33,Female,Asian,Master,12,HR,1
+47,Female,White,Bachelor,2,Operations,1
+55,Male,White,Bachelor,15,Sales,1
+35,Female,White,Bachelor,5,HR,1
+47,Female,White,High School,18,Engineering,0
+48,Male,Hispanic,Bachelor,6,Marketing,1
+30,Male,Asian,Bachelor,9,HR,1
+47,Male,Black,Bachelor,8,HR,1
+43,Male,White,Bachelor,1,Marketing,1
+51,Male,White,Master,14,HR,1
+38,Male,White,Bachelor,4,Engineering,1
+47,Male,White,Master,3,Engineering,1
+57,Female,Black,Master,19,Marketing,0
+22,Male,Asian,PhD,3,Operations,0
+29,Male,Black,Bachelor,17,Sales,0
+56,Male,White,Master,3,Operations,1
+36,Male,Hispanic,PhD,16,HR,0
+43,Female,Asian,PhD,11,Sales,1
+35,Male,Black,High School,16,Marketing,0
+47,Male,Black,Bachelor,9,Marketing,1
+49,Male,White,Bachelor,0,Sales,1
+44,Male,White,High School,17,Engineering,1
+35,Female,White,Bachelor,17,Sales,0
+45,Male,Asian,Master,13,HR,1
+23,Male,White,Master,14,Engineering,1
+47,Female,White,High School,11,Marketing,1
+35,Female,White,Master,3,Sales,1
+28,Female,White,Bachelor,2,Operations,1
+24,Male,Asian,Master,19,Operations,1
+44,Male,Asian,PhD,11,HR,1
+39,Female,White,Bachelor,6,Operations,0
+56,Male,White,Bachelor,10,Sales,1
+36,Male,White,Master,0,Sales,1
+46,Male,White,Bachelor,5,Operations,1
+49,Male,White,High School,14,Sales,1
+31,Female,White,Master,14,HR,0
+38,Male,White,Bachelor,18,Engineering,1
+43,Female,Black,Master,10,HR,0
+47,Male,Black,Bachelor,1,HR,0
+46,Male,White,Master,13,Sales,1
+38,Male,White,Bachelor,1,Engineering,1
+34,Male,Black,PhD,3,Sales,1
+41,Female,Black,Master,16,Marketing,1
+46,Female,Asian,High School,2,Sales,1
+25,Female,Black,Bachelor,12,Sales,1
+31,Female,White,PhD,8,Sales,1
+24,Male,White,Bachelor,6,Engineering,1
+39,Female,Black,High School,14,Sales,0
+57,Male,White,Bachelor,10,Engineering,1
+43,Male,Black,Bachelor,19,Operations,0
+55,Male,Hispanic,Master,1,Marketing,1
+29,Male,Black,Master,14,Engineering,1
+40,Male,White,Bachelor,13,Operations,1
+27,Male,Black,Bachelor,19,Engineering,1
+47,Female,White,Bachelor,10,Engineering,1
+55,Male,Black,Bachelor,2,Marketing,0
+27,Male,Hispanic,High School,16,HR,1
+54,Male,White,PhD,11,HR,1
+43,Male,Hispanic,Master,14,Engineering,1
+42,Female,Hispanic,Master,15,Sales,1
+27,Male,White,Master,4,Operations,1
+27,Female,White,Bachelor,19,Sales,0
+25,Female,White,Master,5,Sales,1
+51,Male,White,Bachelor,18,Engineering,1
+32,Male,White,High School,4,Engineering,0
+51,Female,Black,Bachelor,2,Engineering,1
+52,Female,White,Bachelor,0,Engineering,0
+45,Female,White,Master,5,HR,0
+30,Female,Asian,High School,14,Engineering,1
+24,Male,White,High School,1,HR,1
+52,Male,Asian,Bachelor,2,HR,1
+57,Male,White,Bachelor,16,Engineering,1
+45,Female,White,Master,11,Marketing,1
+52,Female,Black,Bachelor,17,Operations,0
+27,Male,Black,Bachelor,14,Sales,1
+23,Male,Asian,Bachelor,11,HR,1
+41,Male,Asian,Bachelor,15,Operations,0
+49,Male,Asian,Master,7,Marketing,1
+32,Female,White,Bachelor,13,Sales,1
+25,Female,White,Master,16,Sales,1
+36,Female,Asian,Bachelor,7,HR,0
+27,Male,Asian,Bachelor,14,Engineering,1
+51,Male,Hispanic,PhD,13,Marketing,1
+23,Female,White,High School,17,HR,1
+36,Female,White,High School,19,Marketing,0
+32,Male,Asian,Master,6,Engineering,1
+29,Female,White,High School,2,Engineering,1
+47,Male,Hispanic,Master,11,HR,1
+26,Male,Asian,Bachelor,2,Engineering,1
+27,Male,White,PhD,19,Operations,1
+47,Male,Asian,Master,13,Sales,1
+25,Male,Asian,Bachelor,14,HR,1
+40,Male,White,PhD,13,Marketing,1
+41,Female,Hispanic,Bachelor,6,Operations,0
+54,Male,Black,PhD,16,HR,1
+41,Male,Asian,High School,11,Engineering,1
+33,Female,White,Bachelor,19,Engineering,1
+22,Male,Asian,Bachelor,3,Engineering,1
+47,Male,White,Bachelor,8,Engineering,1
+35,Female,White,High School,5,Marketing,1
+32,Male,Hispanic,Master,15,Operations,1
+57,Male,White,Master,1,Sales,1
+34,Male,White,PhD,7,Marketing,1
+24,Male,Hispanic,High School,10,Marketing,0
+54,Female,Hispanic,Bachelor,12,Sales,0
+27,Female,Black,Bachelor,16,Sales,0
+31,Female,Black,Bachelor,7,Engineering,0
+26,Female,White,Bachelor,17,Marketing,1
+44,Female,White,Bachelor,17,HR,1
+31,Male,White,Master,13,Sales,1
+23,Female,Black,Bachelor,14,Sales,0
+34,Male,Asian,Bachelor,5,Operations,1
+23,Female,Asian,High School,10,HR,1
+41,Female,Asian,High School,12,HR,1
+22,Male,White,High School,0,Sales,1
+30,Male,White,PhD,5,Engineering,1
+38,Male,White,High School,8,Operations,1
+30,Male,Black,High School,7,HR,1
+32,Female,White,Bachelor,10,Sales,1
+36,Female,Asian,Master,18,HR,1
+45,Male,White,PhD,8,Operations,1
+56,Male,White,Master,16,Operations,1
+51,Male,White,Master,11,Marketing,0
+52,Male,Asian,Bachelor,13,Sales,1
+26,Male,Black,High School,14,Operations,1
+35,Male,White,PhD,15,Marketing,1
+32,Female,White,Master,19,Marketing,1
+30,Male,Asian,Bachelor,0,HR,1
+55,Male,White,Master,9,HR,1
+33,Female,Asian,Master,7,Marketing,1
+56,Male,Asian,Bachelor,17,HR,1
+56,Female,White,PhD,0,Operations,1
+22,Female,White,PhD,1,Engineering,1
+43,Male,Hispanic,Bachelor,0,Operations,0
+50,Male,White,Master,0,Marketing,1
+29,Male,White,High School,8,Marketing,1
+32,Male,Asian,Master,12,Operations,1
+35,Male,Hispanic,High School,0,HR,1
+51,Female,Hispanic,Bachelor,12,HR,0
+56,Male,Asian,PhD,19,Marketing,1
+42,Male,White,Bachelor,6,Sales,1
+26,Male,White,Bachelor,1,HR,1
+40,Female,Asian,Bachelor,5,Operations,0
+35,Male,Black,High School,6,HR,1
+47,Male,White,Master,13,Operations,1
+25,Male,Hispanic,High School,17,Marketing,0
+46,Female,White,High School,14,HR,1
+46,Male,White,Bachelor,1,Operations,1
+39,Female,White,Master,9,Marketing,1
+29,Female,White,Master,11,Sales,0
+35,Male,White,High School,16,Operations,1
+53,Female,White,Bachelor,7,Sales,1
+54,Male,White,Bachelor,10,Sales,1
+44,Female,Black,Bachelor,2,Engineering,0
+36,Female,Asian,Master,5,HR,0
+54,Male,Black,Bachelor,8,Operations,0
+46,Male,Hispanic,Bachelor,5,Sales,1
+38,Female,White,Bachelor,8,Engineering,1
+54,Male,White,Master,6,Marketing,1
+23,Male,Asian,Bachelor,8,Operations,1
+35,Male,White,Bachelor,17,Sales,1
+27,Male,Hispanic,Bachelor,11,HR,1
+27,Female,White,Bachelor,7,Engineering,1
+24,Male,Hispanic,Master,7,Sales,1
+28,Male,White,Bachelor,17,HR,0
+29,Male,Asian,Master,19,Sales,1
+36,Female,Black,Master,14,Operations,0
+50,Male,Hispanic,Bachelor,6,Operations,1
+54,Female,White,Bachelor,10,Operations,1
+51,Male,Black,Master,19,Engineering,1
+48,Female,Hispanic,Bachelor,15,Operations,1
+57,Male,Black,Bachelor,3,HR,0
+50,Male,Black,PhD,5,Sales,0
+54,Male,Black,High School,2,Marketing,0
+48,Female,White,High School,8,HR,1
+54,Female,Black,Bachelor,9,HR,1
+25,Male,Black,PhD,13,Operations,0
+43,Female,Hispanic,High School,10,Engineering,0
+23,Female,White,High School,17,Sales,1
+31,Male,White,High School,11,Engineering,0
+26,Male,Hispanic,High School,11,Sales,1
+31,Male,Asian,High School,12,Sales,1
+54,Male,White,Bachelor,12,Engineering,1
+34,Female,Black,Bachelor,18,HR,0
+52,Female,White,Bachelor,18,Sales,1
+57,Female,White,Bachelor,13,Engineering,1
+45,Male,White,High School,3,Sales,1
+36,Male,White,Bachelor,12,Marketing,1
+50,Female,Black,Bachelor,7,HR,1
+29,Female,White,Master,18,Operations,1
+26,Female,Hispanic,High School,11,Sales,0
+50,Female,Hispanic,Bachelor,17,Marketing,0
+25,Female,Black,Bachelor,5,Operations,0
+33,Male,Black,Master,17,Operations,0
+23,Male,White,Master,18,Sales,1
+48,Female,Asian,Bachelor,4,Engineering,1
+52,Female,Black,Bachelor,8,Sales,1
+57,Male,White,PhD,2,Marketing,1
+57,Male,Hispanic,High School,9,Operations,1
+47,Female,Asian,High School,18,Sales,1
+48,Male,Hispanic,Bachelor,2,Engineering,0
+26,Male,Asian,High School,14,Sales,1
+41,Male,Black,PhD,0,HR,0
+32,Female,White,Master,6,Engineering,0
+31,Female,Hispanic,Bachelor,11,Marketing,1
+27,Male,Asian,Bachelor,16,Operations,1
+29,Female,White,PhD,19,Sales,1
+44,Male,White,Master,4,Engineering,1
+47,Male,White,Bachelor,3,HR,1
+33,Female,Asian,PhD,11,Engineering,0
+47,Female,Hispanic,PhD,19,HR,0
+34,Female,White,Master,17,Marketing,1
+39,Female,Black,High School,16,Operations,0
+46,Male,White,Bachelor,18,Marketing,0
+54,Male,Hispanic,Master,8,Sales,0
+33,Male,Asian,Bachelor,3,Engineering,1
+57,Male,Asian,Master,1,HR,1
+25,Male,White,High School,3,HR,1
+26,Female,White,High School,1,Engineering,0
+29,Male,White,Bachelor,14,Engineering,1
+49,Female,White,High School,1,Sales,1
+52,Female,Asian,PhD,3,Marketing,1
+30,Female,Asian,Master,5,HR,0
+50,Male,Hispanic,Master,6,Sales,0
+35,Male,Hispanic,Bachelor,9,Marketing,1
+43,Male,Black,Bachelor,18,Sales,1
+32,Male,Asian,Bachelor,18,HR,1
+44,Female,Hispanic,Bachelor,11,Engineering,1
+22,Male,Asian,Bachelor,2,Engineering,1
+42,Male,White,Bachelor,12,Marketing,1
+47,Female,White,Bachelor,17,Operations,0
+57,Male,White,Bachelor,7,Marketing,1
+44,Female,Hispanic,PhD,14,Operations,0
+22,Female,Black,Master,0,Sales,1
+36,Female,White,Bachelor,2,Sales,1
+42,Male,Black,Bachelor,7,HR,1
+30,Male,Black,Master,3,Operations,1
+30,Female,White,High School,15,HR,0
+31,Male,White,Master,9,Engineering,0
+47,Female,Black,Master,11,Operations,1
+56,Female,Black,Bachelor,13,Marketing,0
+46,Female,Asian,Bachelor,13,Engineering,0
+47,Male,Black,Bachelor,1,Engineering,1
+32,Male,Asian,Bachelor,4,Marketing,1
+23,Female,Black,High School,4,Engineering,0
+28,Male,Black,Master,5,Operations,1
+39,Male,Asian,High School,12,HR,1
+48,Male,White,Bachelor,8,Engineering,1
+55,Female,White,PhD,14,Operations,0
+48,Female,White,Master,13,Sales,1
+38,Male,Asian,Bachelor,6,Operations,1
+45,Male,Black,Bachelor,19,HR,0
+46,Female,Asian,High School,1,Operations,1
+28,Female,White,Master,6,Marketing,0
+27,Male,White,High School,5,HR,1
+45,Male,White,Bachelor,16,Sales,0
+54,Female,White,PhD,1,Marketing,1
+50,Female,Black,High School,2,Operations,0
+43,Female,White,Master,4,HR,1
+47,Female,White,PhD,4,Sales,1
+49,Male,Hispanic,High School,0,Marketing,0
+42,Male,White,Master,7,Sales,0
+28,Female,Black,Bachelor,11,Operations,0
+38,Female,Asian,PhD,3,Sales,1
+41,Female,White,Bachelor,12,Engineering,0
+41,Female,Black,Master,14,Marketing,0
+43,Male,Asian,Bachelor,10,Sales,1
+49,Male,Hispanic,Master,9,Operations,1
+28,Female,White,Master,2,Operations,1
+22,Female,Hispanic,Bachelor,13,Sales,0
+53,Female,White,Master,15,Operations,1
+34,Female,White,Bachelor,9,HR,1
+51,Female,White,High School,9,HR,1
+44,Male,Hispanic,High School,11,HR,0
+40,Male,White,Bachelor,8,Engineering,1
+53,Male,White,Bachelor,0,Sales,1
+51,Male,Black,PhD,4,Engineering,1
+50,Male,White,High School,19,Operations,1
+50,Male,White,Master,7,Engineering,1
+51,Male,White,High School,10,Operations,1
+37,Male,White,Master,11,Operations,1
+40,Male,White,PhD,0,Marketing,1
+39,Male,White,Bachelor,19,HR,1
+22,Male,Black,Master,10,Operations,1
+35,Female,White,High School,4,Marketing,0
+23,Male,White,Master,14,HR,1
+49,Male,Asian,Bachelor,4,Operations,1
+51,Male,White,PhD,11,Operations,1
+25,Female,Black,High School,4,Engineering,1
+22,Male,White,Bachelor,16,Engineering,1
+29,Female,White,Master,16,HR,1
+50,Male,White,Bachelor,11,Operations,1
