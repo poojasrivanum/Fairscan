@@ -80,4 +80,3 @@ App at `http://localhost:5173`
 
 ---
 
-Built in 15 days · Team of 4 · Google Solution Challenge 2025
