@@ -117,7 +117,7 @@ export default function Landing() {
       </section>
 
       <footer className="bg-slate-900 text-slate-500 text-center py-6 text-sm">
-        Built for Google Solution Challenge 2025 · FairScan ⚖️
+        Built for Google Solution Challenge 2026 · FairScan ⚖️
       </footer>
     </div>
   )
